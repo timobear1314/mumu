@@ -483,7 +483,7 @@ async function node() {
 			rules: { "n/prefer-global/process": "off" }
 		},
 		{
-			files: ["apps/backend-mock/**/**", "docs/**/**"],
+			files: ["apps/backend-mock/**/**"],
 			rules: {
 				"n/no-extraneous-import": "off",
 				"n/prefer-global/buffer": "off",
@@ -960,7 +960,7 @@ const customConfig = [
 		}] }] }
 	},
 	{
-		files: ["apps/backend-mock/**/**", "docs/**/**"],
+		files: ["apps/backend-mock/**/**"],
 		rules: { "no-console": "off" }
 	},
 	{

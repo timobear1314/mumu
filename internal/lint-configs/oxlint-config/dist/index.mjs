@@ -29,8 +29,6 @@ const comments = {
 const ignores = { ignorePatterns: [
 	"**/dist/**",
 	"**/node_modules/**",
-	"docs/**",
-	"playground/public/**",
 	"**/*.json",
 	"**/*.md",
 	"**/*.svg",
