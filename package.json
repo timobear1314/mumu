@@ -66,7 +66,6 @@
     "catalog": "pnpx codemod pnpm/catalog"
   },
   "devDependencies": {
-    "@commitlint/cli": "catalog:",
     "@changesets/changelog-github": "catalog:",
     "@changesets/cli": "catalog:",
     "@playwright/test": "catalog:",

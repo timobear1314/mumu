@@ -540,9 +540,6 @@ importers:
       '@changesets/cli':
         specifier: 'catalog:'
         version: 2.30.0(@types/node@25.5.0)
-      '@commitlint/cli':
-        specifier: 'catalog:'
-        version: 20.5.0(@types/node@25.5.0)(conventional-commits-parser@6.4.0)(typescript@5.9.3)
       '@playwright/test':
         specifier: 'catalog:'
         version: 1.58.2
