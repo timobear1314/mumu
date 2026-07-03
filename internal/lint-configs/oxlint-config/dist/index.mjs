@@ -93,16 +93,12 @@ const javascript = {
 		"no-empty": ["error", { allowEmptyCatch: true }],
 		"no-fallthrough": "error",
 		"no-new-func": "error",
-		"no-new-object": "error",
-		"no-new-symbol": "error",
 		"no-labels": ["error", {
 			allowLoop: false,
 			allowSwitch: false
 		}],
 		"no-lone-blocks": "error",
 		"no-multi-str": "error",
-		"no-octal": "error",
-		"no-octal-escape": "error",
 		"no-proto": "error",
 		"no-prototype-builtins": "error",
 		"no-redeclare": ["error", { builtinGlobals: false }],
@@ -118,7 +114,6 @@ const javascript = {
 		] }],
 		"no-template-curly-in-string": "error",
 		"no-throw-literal": "error",
-		"no-undef-init": "error",
 		"no-unused-expressions": ["error", {
 			allowShortCircuit: true,
 			allowTaggedTemplates: true,
@@ -147,30 +142,15 @@ const javascript = {
 		"no-useless-computed-key": "error",
 		"no-useless-constructor": "error",
 		"no-useless-return": "error",
-		"object-shorthand": [
-			"error",
-			"always",
-			{
-				avoidQuotes: true,
-				ignoreConstructors: false
-			}
-		],
-		"one-var": ["error", { initialized: "never" }],
 		"prefer-const": ["error", {
 			destructuring: "all",
 			ignoreReadBeforeAssign: true
 		}],
-		"eslint/prefer-arrow-callback": ["error", {
-			allowNamedFunctions: false,
-			allowUnboundThis: true
-		}],
 		"prefer-exponentiation-operator": "error",
 		"prefer-promise-reject-errors": "error",
-		"eslint/prefer-regex-literals": ["error", { disallowRedundantWrapping: true }],
 		"prefer-rest-params": "error",
 		"prefer-spread": "error",
 		"prefer-template": "error",
-		"spaced-comment": "error",
 		"symbol-description": "error",
 		"unicode-bom": ["error", "never"],
 		"use-isnan": ["error", {
